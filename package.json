@@ -1,0 +1,41 @@
+{
+  "name": "parser-csv",
+  "description": "CSV parser, compatible with [parser-cache].",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/parser-csv",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/parser-csv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/parser-csv/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/parser-csv/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "parser"
+  ],
+  "dependencies": {
+    "extend-shallow": "^0.1.1",
+    "parse-csv": "^0.1.0"
+  }
+}
