@@ -39,16 +39,16 @@ console.log(result);
 ## API
 ### [parse](index.js#L28)
 
-* `str` **{String|Object}**: The object or string to parse.
-* `options` **{Object|Function}**: or `next` callback function.
-* `next` **{Function}**: callback function.
+* `str` **{String|Object}**: The object or string to parse.    
+* `options` **{Object|Function}**: or `next` callback function.    
+* `next` **{Function}**: callback function.    
 
 Parse the given `str` of CSV and callback `next(err, json)`.
 
 ### [parseSync](index.js#L52)
 
-* `str` **{String|Object}**: The object or string to parse.
-* `returns`: {Object}
+* `str` **{String|Object}**: The object or string to parse.    
+* `returns`: {Object}  
 
 Parse the given `str` of CSV and return an object.
 
@@ -58,12 +58,12 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 ## Author
 
 **Jon Schlinkert**
-
+ 
 + [github/jonschlinkert](https://github.com/jonschlinkert)
-+ [twitter/jonschlinkert](http://twitter.com/jonschlinkert)
++ [twitter/jonschlinkert](http://twitter.com/jonschlinkert) 
 
 ## License
-Copyright (c) 2014 Jon Schlinkert
+Copyright (c) 2014 Jon Schlinkert  
 Released under the MIT license
 
 ***
