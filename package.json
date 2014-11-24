@@ -1,7 +1,7 @@
 {
   "name": "parser-csv",
   "description": "CSV parser, compatible with [parser-cache].",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/parser-csv",
   "author": {
     "name": "Jon Schlinkert",
@@ -36,11 +36,15 @@
     "should": "*"
   },
   "keywords": [
+    "cache",
+    "conversion",
     "convert",
     "converter",
     "csv",
     "json",
     "parse",
-    "parser"
+    "parser",
+    "parser-cache",
+    "render"
   ]
 }
